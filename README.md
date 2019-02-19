@@ -1,5 +1,5 @@
 ![alt text](https://github.com/DavidDaulton/yotsubaRedditFlair/blob/master/YotsubaRedditFlair/yotsuba-icon-128.png?raw=true)
-# Yotsuba Reddit Flair Extension for Chrome
+# Yotsuba Reddit-Post Flair - Chrome Extension
 
 A chrome extension that finds and decorates reddit posts that have the word yotsuba/yotsubro/genki in their title.
 Only activates on the subreddit r/5ToubunNoHanayome.
