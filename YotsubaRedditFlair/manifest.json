@@ -1,0 +1,22 @@
+ {
+	"name": "Yotsuba Reddit Flair",
+	"version": "1.2",
+	"description": "Add simple flair to any post in r/5ToubunNoHanayome/ that has the word 'Yotsuba' in its title!",
+	"manifest_version": 2,
+
+	"content_scripts": [
+		{
+			 "matches": ["https://www.reddit.com/r/5ToubunNoHanayome/*"],
+			 "css": ["SpoilerFoiler.css"],
+			 "js": ["SpoilerFoiler.js"]
+		}
+	],
+	"web_accessible_resources": ["yotsuba.png", "yotsuba2.png", "yotsubanner.png"],
+	"icons": 
+	{
+		"16": "yotsuba-icon-48.png",
+		"32": "yotsuba-icon-48.png",
+		"48": "yotsuba-icon-48.png",
+		"128": "yotsuba-icon-128.png" 
+	}
+}

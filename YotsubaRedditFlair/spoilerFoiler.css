@@ -1,0 +1,72 @@
+/*
+[data-spoiler = "true"] a.title {
+    color: transparent;
+    text-shadow: 0 0 12px blue;
+    padding: 0px 4px;
+    line-height: 2em;
+	background: transparent !important;
+}
+
+[data-spoiler = "true"] a.title:hover {
+	transition: text-shadow .8s, color .8s;
+	transition-delay: .7s;
+	color: blue;
+	text-shadow: 0 0 0 transparent;
+}
+*/
+.yotsuba-flair a.title{
+	/*background: rgba(122, 244, 66, 0.5);*/
+	border-radius: 10px 0px 3px 5px;
+	padding: 0px 3px !important;
+	color: darkgreen !important;
+	text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+
+.yotsuba-flair a.title:hover {
+	color:black !important;
+}
+
+.yotsuba-flair .expando-button {
+	border: 1px solid grey;
+    border-radius: 2px;
+}
+
+.yotsuba-flair .expando-button.collapsed {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/yotsuba.png') !important;
+	background-position: -7px -16px !important;
+    background-repeat: no-repeat !important;
+    background-size: 46px!important;
+}
+
+.yotsuba-flair .expando-button.expanded {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/yotsuba2.png') !important;
+	background-position: -5px -13px !important;
+    background-repeat: no-repeat !important;
+    background-size: 37px 37px !important;
+}
+
+.yotsuba-flair {
+	background: url('chrome-extension://__MSG_@@extension_id__/yotsubanner.png'), 
+		linear-gradient(to right, rgba(122, 244, 66, 0.1), rgba(0,0,0,0));
+	background-repeat: no-repeat, no-repeat;
+    background-position-x: right, right;
+    background-position-y: bottom, unset;
+    background-size: contain;
+	min-height:66px;
+    border: 1px solid;
+    border-radius: 8px 0px 0px 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    box-shadow: 2px 1px 6px rgba(0,0,0,0.4);
+	padding-left:4px;
+	background-color: white;
+}
+
+.yotsuba-flair p.title {
+	 margin-right:75px;
+}
+
