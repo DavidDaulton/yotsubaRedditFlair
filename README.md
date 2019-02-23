@@ -8,4 +8,4 @@ Works with or without the subreddit's custom styling.
 Download on the Chrome Store for Free at: https://chrome.google.com/webstore/detail/yotsuba-reddit-flair/nkpnepcgnkcblkehfbieghfplnafmckb
 
 # Images
-
+![alt text](https://github.com/DavidDaulton/yotsubaRedditFlair/blob/master/example.png?raw=true)
