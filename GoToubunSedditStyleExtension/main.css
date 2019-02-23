@@ -1,0 +1,111 @@
+
+.gotoubun-extension-post a.title {
+	border-radius: 10px 0px 3px 5px;
+	padding: 0px 3px !important;
+	/*
+	text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+	 */
+}
+
+.gotoubun-extension-post a.title:hover {
+	color:black !important;
+}
+
+.gotoubun-extension-post .expando-button {
+	border: 1px solid grey;
+    border-radius: 2px;
+}
+
+/*ICHIKA---------------------*/
+.ichika-flair a.title{
+	color: rgb(124, 62, 82) !important;
+}
+
+.ichika-flair {
+	background: url('chrome-extension://__MSG_@@extension_id__/images/ichikaPeek.png'), 
+		linear-gradient(to right, rgba(255, 219, 234, .4), rgba(0,0,0,0));
+	
+}
+
+/*NINO---------------------*/
+.nino-flair a.title{
+	color: rgb(109, 50, 59) !important;
+}
+
+.nino-flair {
+	background: url('chrome-extension://__MSG_@@extension_id__/images/ninoPeek.png'), 
+		linear-gradient(to right, rgba(233, 109, 128, .4), rgba(0,0,0,0));
+	
+}
+
+/*MIKU---------------------*/
+.miku-flair a.title{
+	color: rgb(24, 76, 79) !important;
+}
+
+.miku-flair {
+	background: url('chrome-extension://__MSG_@@extension_id__/images/mikuPeek.png'), 
+		linear-gradient(to right, rgba(81, 246, 255, .2), rgba(0,0,0,0));
+	
+}
+
+/*YOTSUBA---------------------*/
+.yotsuba-flair .expando-button.collapsed {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/yotsuba.png') !important;
+	background-position: -7px -16px !important;
+    background-repeat: no-repeat !important;
+    background-size: 46px!important;
+}
+
+.yotsuba-flair .expando-button.expanded {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/yotsuba2.png') !important;
+	background-position: -5px -13px !important;
+    background-repeat: no-repeat !important;
+    background-size: 37px 37px !important;
+}
+
+.yotsuba-flair a.title{
+	color: darkgreen !important;
+}
+
+.yotsuba-flair {
+	background: url('chrome-extension://__MSG_@@extension_id__/images/yotsubaPeek.png'), 
+		linear-gradient(to right, rgba(122, 244, 66, 0.1), rgba(0,0,0,0));
+	
+}
+
+/*ITSUKI---------------------*/
+.itsuki-flair a.title{
+	color: rgb(60, 66, 14) !important;
+}
+
+.itsuki-flair {
+	background: url('chrome-extension://__MSG_@@extension_id__/images/itsukiPeek.png'), 
+		linear-gradient(to right, rgba(235, 255, 63, .5), rgba(0,0,0,0));
+	
+}
+
+.gotoubun-extension-post {
+	background-repeat: no-repeat, no-repeat;
+    background-position-x: right, right;
+    background-position-y: bottom, unset;
+    background-size: contain;
+	min-height:66px;
+    border: 1px solid;
+    border-radius: 8px 0px 0px 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    box-shadow: 2px 1px 6px rgba(0,0,0,0.4);
+	padding-left:4px;
+	background-color: white;
+}
+
+
+.gotoubun-extension-post p.title {
+	 margin-right:75px;
+}
+
